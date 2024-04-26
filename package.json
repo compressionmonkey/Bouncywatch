@@ -1,0 +1,37 @@
+{
+  "name": "bouncy-watch",
+  "version": "1.0.0",
+  "description": "Custom springy controls using use-gesture and react-spring.",
+  "keywords": [
+    "use-gesture",
+    "custom-controls",
+    "react-spring",
+    "tag-heuer"
+  ],
+  "main": "src/index.js",
+  "dependencies": {
+    "@react-spring/three": "9.3.1",
+    "@react-three/drei": "7.22.9",
+    "@react-three/fiber": "7.0.21",
+    "@types/three": "0.134.0",
+    "@use-gesture/react": "10.1.6",
+    "framer-motion": "5.4.5",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "react-scripts": "4.0.3",
+    "three": "0.135.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}
